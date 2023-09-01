@@ -2,13 +2,13 @@
 
 ![aws-sam-vscode](./images/aws-sam-vscode.png)
 
-The aws-sam-vscode is a set of bash scripts and configurations that easily, securely, and very functionally integrates the Visual Studio Code (VSCode) debugger with the AWS Serverless Application Model (SAM).
+The aws-sam-vscode is a set of BASH scripts and configurations that easily, securely, and very functionally integrates the Visual Studio Code (VSCode) debugger with the AWS Serverless Application Model (SAM).
 
 The serverless applications (lambdas) execution will be done through an application server, that is, in the same way as it will occur in AWS. Execution as stript? Never again! Debug AWS serverless applications (lambdas) in much the same way as non-serverless applications.
 
 This is a free, open source, game-changing debugging tool. Enjoy! 😎
 
-**FURTHER:** This project was conceived and tested under Linux 🐧❤️ , but can be adapted for use with M$ Windows 💸 as long as Bash is supported. Currently this project only supports projects in Python, but support for other languages can also be added without major problems.
+**FURTHER:** This project was conceived and tested under Linux 🐧❤️ , but can be adapted for use with M$ Windows 💸 as long as BASH is supported. Currently this project only supports projects in Python, but support for other languages can also be added without major problems.
 
 **IMPORTANT:** My life, my work and my passion is free software. Corrections, tweaks and improvements are very welcome (**pull requests** 😉)! Please consider giving us a ⭐, fork, support this project or even visit our professional profile (see [About](#about)). **Thanks!** 🤗
 
@@ -494,7 +494,7 @@ Install Pyenv...
 wget -q -O - https://pyenv.run | bash
 ```
 
-Adjust the command interpreter (Bash) configuration file (~/.bashrc)...
+Adjust the command interpreter (BASH) configuration file (~/.bashrc)...
 
 ```
 read -r -d '' FILE_CONTENT << 'HEREDOC'
