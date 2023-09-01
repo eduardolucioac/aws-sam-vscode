@@ -133,13 +133,13 @@ git clone https://github.com/eduardolucioac/aws-sam-vscode.git
 
 ... and copy from it the required components into your project...
 
-MODEL
+**MODEL**
 
 ```
 cp -vr ./aws-sam-vscode/resources/. ./<APP_NAME>
 ```
 
-EXAMPLE
+**EXAMPLE**
 
 ```
 cp -vr ./aws-sam-vscode/resources/. ./aws-sam-app
@@ -190,14 +190,14 @@ sed -i 's/Handler: app\.lambda_handler/Handler: hello_world\/app\.lambda_handler
 
 Install a Python interpreter with Pyenv running the command...
 
-MODEL
+**MODEL**
 
 ```
 cd ./<APP_NAME>
 pyenv install <PYTHON_VERSION>
 ```
 
-EXAMPLE
+**EXAMPLE**
 
 ```
 cd ./aws-sam-app
@@ -208,7 +208,7 @@ pyenv install 3.8.12
 
 Go to your AWS SAM application directory create and activate a Python virtual environment running the commands...
 
-MODEL
+**MODEL**
 
 ```
 cd ./<APP_NAME>
@@ -216,7 +216,7 @@ pyenv virtualenv 3.8.12 <APP_NAME>
 pyenv local <APP_NAME>
 ```
 
-EXAMPLE
+**EXAMPLE**
 
 ```
 cd ./aws-sam-app
@@ -236,9 +236,9 @@ ext install formulahendry.code-runner
 ext install ms-python.python
 ```
 
-NOTES:
- I - These are the minimum VSCode extensions needed for the schema to work properly.
- II - The VSCode itself will try to install them due to the settings in the "./<APP_NAME>/.vscode/extensions.json" file.
+**NOTES:**  
+ I - These are the minimum VSCode extensions needed for the schema to work properly.  
+ II - The VSCode itself will try to install them due to the settings in the "./<APP_NAME>/.vscode/extensions.json" file.  
 
 ## Configure aws-sam-vscode on your project
 
@@ -572,17 +572,9 @@ https://www.digitalocean.com/community/tutorials/how-to-install-an-erpnext-stack
 
 # About
 
-aws-sam-vscode 🄯 BSD-3-Clause  
+**aws-sam-vscode 🄯 BSD-3-Clause**  
 Eduardo Lúcio Amorim Costa  
-Brazil-DF  
-https://www.linkedin.com/in/eduardo-software-livre/
+Brazil-DF 🇧🇷  
+https://www.linkedin.com/in/eduardo-software-livre/  
 
-![Brazil](./images/brazil.png)
-
-```
-  .~.  Have fun! =D
-  /V\  
- // \\ Tux
-/(   )\
- ^`~'^ 
-```
+**Have fun!** 🐧
