@@ -181,9 +181,9 @@ sed -i 's/Handler: app\.lambda_handler/Handler: hello_world\/app\.lambda_handler
 
 **IMPORTANT:** Some of the commands just above modify certain aspects referring to the organization of the project in the "template.yaml" file. These actions are intended to facilitate the use and organization of the project, but can be easily reversed if you prefer the default organization.
 
-**NOTES:**
- I - The configuration commands above will add support for Python Visual Studio and Visual Studio Code Debugger (ptvsd).
- II - This debug scheme will be activated through the use of the "DEBUG" environment variable, which is set by command line during the debugger initialization by the aws-sam-vscode project. This scheme will have no impact on your production environment.
+**NOTES:**  
+ I - The configuration commands above will add support for Python Visual Studio and Visual Studio Code Debugger (ptvsd).  
+ II - This debug scheme will be activated through the use of the "DEBUG" environment variable, which is set by command line during the debugger initialization by the aws-sam-vscode project. This scheme will have no impact on your production environment.  
  III - Although the ptvsd package added to "requirements.txt" does not impact production environment, it will not be needed in this environment.
 
 ## Create a Python virtual environment
@@ -556,19 +556,19 @@ sysctl fs.inotify.max_user_instances=1024
 
 ## References
 
-https://amaral.northwestern.edu/resources/guides/pyenv-tutorial
-https://archlinux.org/news/deprecation-of-etcsysctlconf/
-https://bigfatsoftwareinc.wordpress.com/2020/11/03/got-system-limit-for-number-of-file-watchers-reached-error/
-https://github.com/pyenv/pyenv/wiki#suggested-build-environment
-https://github.com/pyenv/pyenv/wiki/Common-build-problems
-https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-20-04/
-https://softwareengineering.stackexchange.com/a/25015/409259
-https://stackoverflow.com/a/27978545/3223785
-https://superuser.com/a/743258/195840
-https://thechief.io/c/raeymaeckers/develop-aws-lambda-functions-locally-and-use-aws-sam-deploy-them-your-account/
-https://wiki.archlinux.org/title/sysctl
-https://wiki.manjaro.org/index.php?title=Arch_User_Repository
-https://www.digitalocean.com/community/tutorials/how-to-install-an-erpnext-stack-on-ubuntu-18-04
+https://amaral.northwestern.edu/resources/guides/pyenv-tutorial  
+https://archlinux.org/news/deprecation-of-etcsysctlconf/  
+https://bigfatsoftwareinc.wordpress.com/2020/11/03/got-system-limit-for-number-of-file-watchers-reached-error/  
+https://github.com/pyenv/pyenv/wiki#suggested-build-environment  
+https://github.com/pyenv/pyenv/wiki/Common-build-problems  
+https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-20-04/  
+https://softwareengineering.stackexchange.com/a/25015/409259  
+https://stackoverflow.com/a/27978545/3223785  
+https://superuser.com/a/743258/195840  
+https://thechief.io/c/raeymaeckers/develop-aws-lambda-functions-locally-and-use-aws-sam-deploy-them-your-account/  
+https://wiki.archlinux.org/title/sysctl  
+https://wiki.manjaro.org/index.php?title=Arch_User_Repository  
+https://www.digitalocean.com/community/tutorials/how-to-install-an-erpnext-stack-on-ubuntu-18-04  
 
 # About
 
