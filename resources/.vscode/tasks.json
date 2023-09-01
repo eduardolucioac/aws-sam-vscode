@@ -1,0 +1,72 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "bash ${workspaceFolder}/.debug/build.bash",
+            "isBackground": true,
+            "problemMatcher": [
+                {
+                    "pattern": [
+                        {
+                            "regexp": "\\b\\B",
+                            "file": 1,
+                            "location": 2,
+                            "message":3
+                        }
+                    ],
+                    "background": {
+                        "activeOnStart": true,
+                        "beginsPattern": "^.*BUILD*",
+                        "endsPattern": "^.*ERROR*"
+                    }
+                }
+            ],
+            "presentation": {
+                "reveal": "silent",
+                "revealProblems": "onProblem"
+            }
+        },
+        {
+            "label": "start",
+            "type": "shell",
+            "command": "bash ${workspaceFolder}/.debug/start.bash",
+            "isBackground": true,
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "build"
+            ],
+            "problemMatcher": [
+                {
+                    "pattern": [
+                        {
+                            "regexp": "\\b\\B",
+                            "file": 1,
+                            "location": 2,
+                            "message": 3
+                        }
+                    ],
+                    "background": {
+                        "activeOnStart": true,
+                        "beginsPattern": "^.*START*",
+                        "endsPattern": "^.*SUCCESS*"
+                    }
+                }
+            ],
+            "presentation": {
+                "reveal": "always",
+                "revealProblems": "onProblem"
+            }
+        },
+        {
+            "label": "stop",
+            "type": "shell",
+            "command": "bash ${workspaceFolder}/.debug/stop.bash",
+            "isBackground": true,
+            "presentation": {
+                "close": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SAM CLI Python Debug",
+            "type": "python",
+            "request": "attach",
+            "port": 5890,
+            "host": "127.0.0.1",
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}",
+                    "remoteRoot": "/var/task"
+                }
+            ],
+            "preLaunchTask": "start",
+            "postDebugTask": "stop"
+        }
+    ]
+}

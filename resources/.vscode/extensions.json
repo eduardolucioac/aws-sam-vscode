@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "AmazonWebServices.aws-toolkit-vscode",
+        "formulahendry.code-runner",
+        "ms-python.python"
+    ]
+}

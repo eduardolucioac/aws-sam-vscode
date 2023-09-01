@@ -1,0 +1,26 @@
+{
+    "files.exclude": {
+        "**/*.pyc": {
+            "when": "$(basename).py"
+        },
+        "**/__pycache__": true,
+        "**/.python-version": true,
+        "**/.aws-sam": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true
+    },
+    "code-runner.executorMap": {
+        "python": "~/.pyenv/shims/python"
+    },
+    "editor.rulers": [
+        80
+    ],
+    "workbench.colorCustomizations": {
+        "editorWhitespace.foreground": "#fbff00",
+        "editorRuler.foreground": "#ff4081"
+    },
+    "editor.renderWhitespace": "all",
+    "diffEditor.ignoreTrimWhitespace": false,
+}
