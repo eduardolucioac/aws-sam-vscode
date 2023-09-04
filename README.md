@@ -67,11 +67,11 @@ There are dozens of ways to install the necessary components to use aws-sam-vsco
 
 ## Install Docker and VSCode
 
-The installation of Docker and VSCode is not the focus of this roadmap, however we provide in the sections Install Docker Community Edition (CE) and Install VSCode how to do it.
+The installation of Docker and VSCode is not the focus of this roadmap, however we provide in the sections [Install Docker Community Edition (CE)](#install-docker-community-edition-ce) and [Install Visual Studio Code (VSCode)](#install-visual-studio-code-vscode) how to do it.
 
 ## Install Pyenv and create a Python virtual environment
 
-The installation of Pyenv and creation of a Python virtual environment is not the focus of this guide, however we provide in the sections Pyenv and Create a Python virtual environment how to do it.
+The installation of Pyenv and creation of a Python virtual environment is not the focus of this guide, however we provide in the sections [Install Pyenv](#install-pyenv) and [Create a Python virtual environment](#create-a-python-virtual-environment) how to do it.
 
 **NOTE:** In this roadmap we chose to use Pyenv because we believe it is the best option for Python version management, however any other could be used by simply configuring the ".debug/venv.bash" file. This file will be available in the project after installation and contains commands for activating the virtual environment.
 
@@ -101,7 +101,7 @@ aws --version
 sam --version
 ```
 
-**TIP:** A recurring problem with using the AWS SAM with VSCode in a development environment is reaching the limits of inotify. In order to avoid these problems we need to increase these limits. We provide in the section Increase the inotify limits how to do it.
+**TIP:** A recurring problem with using the AWS SAM with VSCode in a development environment is reaching the limits of inotify. In order to avoid these problems we need to increase these limits. We provide in the section [Increase the inotify limits](#increase-the-inotify-limits) how to do it.
 
 ## Create an AWS SAM application (basic example)
 
