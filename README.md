@@ -4,7 +4,7 @@
 
 The aws-sam-vscode is a set of BASH scripts and configurations that easily, securely, and very functionally integrates the Visual Studio Code (VSCode) debugger with the AWS Serverless Application Model (SAM).
 
-The serverless applications (lambdas) execution will be done through an application server, that is, in the same way as it will occur in AWS. Execution as scripts? Never again! Debug AWS serverless applications (lambdas) in much the same way as non-serverless applications.
+The serverless applications (lambdas) execution will be done through an application server, that is, in the same way as it will occur in AWS. Execution as script? Never again! Debug AWS serverless applications (lambdas) in much the same way as non-serverless applications.
 
 This is a free, open source, game-changing debugging tool. Enjoy! 😎
 
