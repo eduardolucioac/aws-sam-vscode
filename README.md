@@ -290,14 +290,14 @@ Install Python packages in your project virtual environment...
 
 ```
 cd ./<APP_NAME>
-pip install -r ./requirements-dev.txt
+pip install -r ./requirements.txt
 ```
 
 **EXAMPLE**
 
 ```
 cd ./aws-sam-app
-pip install -r ./requirements-dev.txt
+pip install -r ./requirements.txt
 ```
 
 # Extra
